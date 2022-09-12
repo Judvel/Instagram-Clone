@@ -8,10 +8,22 @@ main {
     margin: 0;
 }
 
-.phone {
+.case {
     display: inline-block;
-    margin-top: 50px;
-    width: 350px;
-    height: 350px;
-    vertical-align: middle;
+    position: relative;
+    width: 380px;
+    height: 580px;
+    background-image: url('/img/carcase.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.phone {
+    display: block;
+    position: absolute;
+    right: 32px;
+    width: 60%;
+    bottom: 59px;
+    height: 498px;
 }
