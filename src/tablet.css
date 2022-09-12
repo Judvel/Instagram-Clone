@@ -1,0 +1,14 @@
+main {
+    margin: auto 0;
+}
+
+.main--login {
+    /* margin-top: 50px; */
+    border: 1px solid #dbdbdb;
+    background-color: #ffffff;
+}
+
+.login--body-middle {
+    border: 1px solid #dbdbdb;
+    background-color: #ffffff;
+}

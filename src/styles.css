@@ -7,6 +7,7 @@
 html {
     font-size: 62.5%;
     font-family: 'Roboto', sans-serif;
+    background-color: #fafafa;
 }
 
 body {
@@ -16,13 +17,30 @@ body {
     justify-content: space-between;
 }
 
+.phone {
+    display: none;
+    width: 100px;
+    height: 100px;
+}
+
 main {
+    width: 100%;
+}
+
+.main {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     text-align: center;
     height: 100%;
+    max-width: 350px;
+    margin: 0 auto;
     padding-bottom: 60px;
+}
+
+.main--login {
+    width: 100%;
+    margin-bottom: 20px;
 }
 
 .main--login .main--title {
@@ -58,6 +76,8 @@ main {
     font-size: 1.2rem;
     border: 1px solid #dbdbdb;
     border-radius: 4px;
+    background-color: #fafafa;
+    outline: none;
 }
 
 .form--input::placeholder {
@@ -117,14 +137,15 @@ a {
 }
 
 .alternative--link__small {
-    padding: 20px;
+    padding: 20px 20px 0 20px;
     font-size: 1.2rem;
     color: #385185;
 }
 
 .login--body-middle {
     font-size: 1.3rem;
-    padding-bottom: 40px;
+    padding: 20px;
+    margin-bottom: 20px;
 }
 
 .login--body-middle a {
